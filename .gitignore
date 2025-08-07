@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# dotenv environment variable file
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Coverage files
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Build
+dist/
+build/
+
+# Optional npm cache directory
+.npm/
+
+# Misc
+*.tgz
