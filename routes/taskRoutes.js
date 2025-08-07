@@ -11,10 +11,9 @@ const {
   getProgress
 } = require('../controllers/taskController');
 
-// Protect all routes
+
 router.use(auth);
 
-// Routes
 router.post('/', createTask);
 router.get('/', getTasks);
 router.get('/progress', getProgress);
